@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Slabo 27px', serif;
+  background-color:#ADD8E6;
 }
 
 .header {
@@ -25,19 +26,11 @@ a {
   font-weight: bold;
 }
 
-.coverPhoto {
-  width: 100%;
-}
-
 .displayResult{
   text-align: center;
 }
 
-img{
-  width: 100%;
-}
-
-button {
+.submit {
   margin-top: 10px;
   color: white;
   background-color: #eb2642;
@@ -46,4 +39,24 @@ button {
   border:3px groove black;
   font-family: monospace;
   padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.questions {
+  text-align: center;
+}
+
+img {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:10px dotted white;
+}
+
+h1,h3 {
+  font-family: 'Shadows Into Light', cursive;
 }
